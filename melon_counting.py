@@ -13,7 +13,6 @@ melons_to_add = ['Ogen', 'Horned Melon', 'Watermelon', 'Casaba',
                  'Watermelon', 'Cantaloupe', 'Casaba', 'Cantaloupe', 'Casaba',
                  'Watermelon', 'Santa Claus', 'Casaba']
 
-
 def count_melons(melon_list):
     """Take in a list and return a dictionary of # of melons by melon type."""
 
@@ -27,3 +26,5 @@ def count_melons(melon_list):
             melon_counts[melon] = 1
 
     return melon_counts
+
+print(count_melons(melons_to_add ))
